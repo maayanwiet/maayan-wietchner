@@ -1,0 +1,98 @@
+body{
+	background-image: url(https://wallpaperstock.net/wallpapers/thumbs1/47758hd.jpg);
+	margin: auto;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1000px){
+	.nav{
+		font-size: 1.5em;
+		padding: 0;
+	}
+}
+
+h1 {
+	font-size: 125px;
+	font-family: fantasy;
+	text-align: center;
+	justify-content: center;
+}
+
+p {
+    font-size: 40px;
+    text-align: center;
+}
+
+ .container{
+  font-family: italic;
+  font-size: 30px;
+  margin-left: 12px;
+}
+
+.simple {
+  text-decoration: underline;
+}
+
+hr {
+  color: black;
+  size: 13px;
+  margin: auto;
+}
+
+hr:hover {
+  cursor: none;
+}
+
+li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: ##db7f88;
+  float: left;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  list-style: none;
+}
+
+li a:hover {
+  background-color: #c9515c;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  list-style: none;
+}
+
+li {
+  float: left;
+}
+
+li a:hover {
+  background-color: #c9515c;
+}
+
+nav{
+	position: fixed; 
+	 top: 0;
+     width: 100%;
+     /*padding-top: 60px;*/
+     overflow: hidden;
+     margin: 0;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}

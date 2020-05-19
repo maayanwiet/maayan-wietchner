@@ -1,0 +1,83 @@
+body{
+	background-image: url(https://wallpaperstock.net/wallpapers/thumbs1/47758hd.jpg);
+	margin: auto;
+  background-size: cover;
+}
+
+p{
+	font-family: sans-serif; font-size: 22px;
+	text-align: center;
+	text-align: justify;
+	text-align-last: center;
+	margin: right;
+}
+
+.thrill {
+  font-family: cursive;
+}
+
+h1{
+	font-size: 100px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: ##db7f88;
+  float: left;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  list-style: none;
+}
+
+li a:hover {
+  background-color: #c9515c;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  list-style: none;
+}
+
+li {
+  float: left;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+nav{
+	position: fixed; 
+	 top: 0;
+     width: 100%;
+     /*padding-top: 60px;*/
+     overflow: hidden;
+     margin: 0;
+}
+
+.cool{
+	background-color: #ffffff;
+	font-color: #ffffff;
+	padding: 10px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}

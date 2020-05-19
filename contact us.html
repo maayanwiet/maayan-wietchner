@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+	<title> Contact</title>
+	<link rel="stylesheet" type="text/css" href="contact us.css">
+</head>
+<body>
+	<nav class="nav active">
+<ul>
+  <li><a href="Maayan Wietchner.html">Home</a></li>
+  <li><a href="about maayan.html">About</a></li>
+  <li><a href="projects.html">Projects</a></li>
+  <li><a href="pictures.html">Recommended coding websites</a></li>
+  <li><a  class="active" href="contact us.html">Contact</a></li>
+</ul>
+</nav>
+	<h1> Contact</h1>
+<form action="action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="profile.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+
+  <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<!-- Trigger/Open The Modal -->
+  <button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+  <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
+
+<script type="text/javascript" src="modal.js"></script>
+<script type="text/javascript" src="contact.js"></script>
+
+</body>
+</html>
